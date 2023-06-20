@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tes_firebase/screens/auth/sign_in.dart';
 
 class Auth extends StatefulWidget {
   const Auth({super.key});
@@ -11,7 +12,7 @@ class _AuthState extends State<Auth> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('Auth'),
+      child: SignIn(),
     );
   }
 }
